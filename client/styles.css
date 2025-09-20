@@ -1,21 +1,91 @@
+@font-face {
+  font-family: myFont; 
+  src: url(ACNH-Font.otf); 
+}
+
 :root {
     background-size: cover;
-    background-attachment: fixed;
+    height: 100vh;
     background-image: url('background.jpeg');
+    font-family: myFont;
 }
 
 .title-section {
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100vh;
-    scale: 60%;
+    height: 100vh;
+    scale: 70%;
 }
 
 #villager-btn{
-    
+    margin: 0 auto;
+    --pico-background-color: #78c2da;
+    transition: ease-in-out .2s;
+    width: fit-content;
+    font-size:xx-large;
 }
 
-.main-content {
-    --pico-background-color: #89c1d5;
+#villager-btn:hover{
+    --pico-background-color: #00a9cf;
+}
+
+#villager-btn:active{
+    --pico-background-color: #00a9cf;
+    scale: 98%;
+    translate: 0 5px;
+}
+
+#main-content {
+    background-color: rgba(164, 234, 246);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.villager-card {
+    background-color: #f5f0d8;
+    border-radius: 20px;
+    align-content: center;
+    height: 15rem;
+    width: 25rem;
+}
+
+.card-content {
+    display: flex;
+    background-image: url(pattern.jpg);
+    background-size: cover;
+    --pico-color: #503300;
+    height: 70%;
+    align-items: center;
+}
+
+.villager-card img {
+    scale: 60%;
+    border-radius: 30%;
+    border: 10px solid #f5f0d8;
+}
+
+.left-container { 
+    width: 50%;
+}
+
+.right-container {
+    font-size: larger;
+    margin: auto 0;
+}
+
+.villager-name, .villager-gender, .villager-bday {
+    border-top: 2px solid #f5f0d8;
+    border-bottom: 2px solid #f5f0d8;
+    background-color: rgba(179, 173, 149, .1);
+}
+
+@media (max-width: 1000px) {
+    #main-content {
+        grid-template-columns: 1fr 1fr;
+        margin-top: -10px;
+    }
 }

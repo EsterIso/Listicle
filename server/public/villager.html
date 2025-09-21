@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villager</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="title-section">
+      <img src="../logo.png" alt="">
+      <a class="button" id="villager-btn" role="button" href="/">All Villagers</a>
+    </div>
+    <main id="main-section">
+        <div class="villager-passport">
+            <p class="card-header">------ Passport ------</p>
+            <div class="card-content">
+                <div class="left-section">
+                    <img id="image">
+                    <p id="villager-name"></p>
+                </div>
+                <div class="right-section">
+                    <div class="villager-info-row">
+                        <div>
+                            <label for="">Gender</label>
+                            <p id="villager-gender"></p>
+                        </div>
+                        <div>
+                            <label for="">Species</label>
+                            <p id="villager-species"></p>
+                        </div>
+                        <div>
+                            <label for="">Personality</label>
+                            <p id="villager-personality"></p>
+                        </div>
+                    </div>
+                    <div class="villager-info-row">
+                        <div>
+                            <label for="">Catchphrase</label>
+                            <p id="villager-catchphrase"></p>
+                        </div>
+                        <div>
+                            <label for="">Hobby</label>
+                            <p id="villager-hobby"></p>
+                        </div>
+                        <div>
+                            <label for="">Birthday</label>
+                            <p id="villager-bday"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>
+    <script src="/scripts/villagers.js"></script>
+</body>
+</html>

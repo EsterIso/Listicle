@@ -19,7 +19,7 @@
     scale: 70%;
 }
 
-#villager-btn{
+#villager-btn, #return-button {
     margin: 0 auto;
     --pico-background-color: #78c2da;
     transition: ease-in-out .2s;
@@ -27,7 +27,7 @@
     font-size:xx-large;
 }
 
-#villager-btn:hover{
+#villager-btn:hover, #return-button:hover {
     --pico-background-color: #00a9cf;
 }
 
@@ -45,12 +45,39 @@
     gap: 1rem;
 }
 
+#main-section {
+    background-color: rgba(164, 234, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .villager-card {
     background-color: #f5f0d8;
     border-radius: 20px;
+    border: 5px solid #f5f0d8;
     align-content: center;
     height: 15rem;
     width: 25rem;
+}
+
+.villager-passport {
+    background-color: #f5f0d8;
+    border-radius: 20px;
+    border: 5px solid #f5f0d8;
+    align-content: center;
+    height: 500px;
+    width: 700px;
+}
+
+.villager-card:hover {
+    border-color: #00a9cf;
+}
+
+.card-header {
+    color: darkmagenta;
+    text-align: center;
 }
 
 .card-content {
@@ -62,30 +89,76 @@
     align-items: center;
 }
 
-.villager-card img {
+.villager-card img, .villager-passport img {
     scale: 60%;
     border-radius: 30%;
     border: 10px solid #f5f0d8;
 }
 
-.left-container { 
+.left-container, .left-section { 
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.right-container {
-    font-size: larger;
-    margin: auto 0;
-}
-
-.villager-name, .villager-gender, .villager-bday {
+.left-container p, .left-section p {
+    margin-top: -40px;
+    text-align: center;
     border-top: 2px solid #f5f0d8;
     border-bottom: 2px solid #f5f0d8;
     background-color: rgba(179, 173, 149, .1);
 }
 
+.right-container {
+    font-size: larger;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    font-size: larger;
+    margin: auto 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.right-container p, .right-section p{
+    border-top: 2px solid #f5f0d8;
+    border-bottom: 2px solid #f5f0d8;
+    background-color: rgba(179, 173, 149, .1);
+}
+
+label {
+    font-size: small;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fof {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    --pico-color:#503300 ;
+}
+
+.fof h1 {
+    --pico-color:#503300
+}
+
 @media (max-width: 1000px) {
     #main-content {
         grid-template-columns: 1fr 1fr;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #main-content {
+        grid-template-columns: 1fr;
         margin-top: -10px;
     }
 }

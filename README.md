@@ -1,24 +1,24 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - *Listicle*
 
-Submitted by: **Your name here**
+Submitted by: **Esterlin Jerez Paulino**
 
-About this web app: **App description here**
+About this web app: **This project is an Animal Crossing Villager List. Each villager has their own Passport with important information. Click on the passport to find out more on this Villager.**
 
-Time spent: **X** hours
+Time spent: **5** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
-- [ ] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [ ] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is styled using Picocss**
+- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [x] **The web app displays a title**
+- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
+- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
+  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [x] **The web app serves an appropriate 404 page when no matching route is defined**
+- [x] **The web app is styled using Picocss**
 
 The following **optional** features are implemented:
 

@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Slide 1](https://i.imgur.com/PNKfYPB.gif)
+![Slide 1](https://i.imgur.com/CQaJ6Mj.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here

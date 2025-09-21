@@ -30,11 +30,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
+**Note: please be sure to**
 
 Here's a walkthrough of implemented required features:
 
-![Slide 1](https://i.imgur.com/CQaJ6Mj.gif)
+![Slide 1](./ListicleDemo.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here

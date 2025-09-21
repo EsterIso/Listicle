@@ -64,7 +64,7 @@ const renderVillagers = async() => {
 }
 
 const renderVillager = async() => {
-    const requestedName = window.location.href.split('/').pop();
+    const requestedName = decodeURIComponent(window.location.href.split('/').pop());
     console.log('request name: ' + requestedName);
     const res = await fetch('/villagers');
 

@@ -24,9 +24,6 @@ The following **optional** features are implemented:
 
 - [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
-The following **additional** features are implemented:
-
-- [x] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
@@ -45,11 +42,11 @@ GIF created with Filmora
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Had some issues with css at first, was not loading in properly. 
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Esterlin Jerez Paulino]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

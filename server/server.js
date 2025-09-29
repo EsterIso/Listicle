@@ -1,4 +1,5 @@
 import express from 'express';
+import './config/dotenv.js';
 import dotenv from "dotenv";
 import villagerRouter from './routes/villagers.route.js'
 

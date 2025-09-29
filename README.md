@@ -22,24 +22,27 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-**Note: please be sure to 
+**Note: please be sure to**
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Slide 1](./ListicleDemo.gif)
 
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with Filmora
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Had some issues with css at first, was not loading in properly. 
 
 ## License
 
@@ -53,10 +56,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> d8d41f8708c4e76597aa22211b7f26ed166c7c76
 # WEB103 Project 2 - *Listicle*
 
 Submitted by: **Esterlin Jerez Paulino**
@@ -100,8 +100,4 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 
 > http://www.apache.org/licenses/LICENSE-2.0
 
-<<<<<<< HEAD
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-=======
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
->>>>>>> d8d41f8708c4e76597aa22211b7f26ed166c7c76
